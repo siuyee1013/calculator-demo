@@ -1,0 +1,37 @@
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator-wrapper {
+  width: 500px;
+}
+
+.monitor {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  background-color: #c3c2ab;
+  outline: 1px solid #000;
+  font-size: 32px;
+  position: relative;
+}
+
+.formula {
+  position: absolute;
+  bottom: 15px;
+  font-size: 24px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.row-75 {
+  width: 75%;
+  height: 100px;
+}
